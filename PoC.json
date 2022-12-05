@@ -1,0 +1,384 @@
+{
+  "global": {
+    "color": {
+      "primary": {
+        "100": {
+          "value": "#EBF0EE",
+          "type": "color"
+        },
+        "200": {
+          "value": "#E0E8E6",
+          "type": "color"
+        },
+        "300": {
+          "value": "#3D6D5F",
+          "type": "color"
+        },
+        "400": {
+          "value": "#144E3E",
+          "type": "color"
+        },
+        "500": {
+          "value": "#144E3E",
+          "type": "color"
+        },
+        "600": {
+          "value": "#003f2d",
+          "type": "color"
+        },
+        "700": {
+          "value": "#012a2d",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "white": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "black": {
+          "value": "#1a1a1a",
+          "type": "color"
+        }
+      },
+      "grey": {
+        "100": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "200": {
+          "value": "#ededed",
+          "type": "color"
+        },
+        "300": {
+          "value": "#e3e3e3",
+          "type": "color"
+        },
+        "400": {
+          "value": "#959595",
+          "type": "color",
+          "description": "Solid version of black 46%"
+        },
+        "500": {
+          "value": "#767676",
+          "type": "color",
+          "description": "Solid version of black 60%"
+        },
+        "600": {
+          "value": "#565656",
+          "type": "color"
+        },
+        "700": {
+          "value": "#1a1a1a",
+          "type": "color"
+        }
+      }
+    },
+    "space": {
+      "100": {
+        "value": "2",
+        "type": "spacing",
+        "description": "smallest unit of measure"
+      },
+      "200": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "300": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "400": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "500": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "600": {
+        "value": "20",
+        "type": "spacing"
+      },
+      "700": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "800": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "900": {
+        "value": "48",
+        "type": "spacing"
+      },
+      "1000": {
+        "value": "56",
+        "type": "spacing"
+      },
+      "1100": {
+        "value": "64",
+        "type": "spacing"
+      },
+      "1200": {
+        "value": "96",
+        "type": "spacing"
+      }
+    },
+    "line-height": {
+      "100": {
+        "value": "100%",
+        "type": "lineHeights"
+      },
+      "200": {
+        "value": "125%",
+        "type": "lineHeights"
+      },
+      "300": {
+        "value": "137.5%",
+        "type": "lineHeights"
+      },
+      "400": {
+        "value": "144%",
+        "type": "lineHeights"
+      },
+      "500": {
+        "value": "150%",
+        "type": "lineHeights"
+      }
+    },
+    "font-size": {
+      "100": {
+        "value": "8",
+        "type": "fontSizes"
+      },
+      "200": {
+        "value": "10",
+        "type": "fontSizes"
+      },
+      "300": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "400": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "500": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "600": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "700": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "800": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "900": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "1000": {
+        "value": "48",
+        "type": "fontSizes"
+      },
+      "1100": {
+        "value": "60",
+        "type": "fontSizes"
+      },
+      "1200": {
+        "value": "96",
+        "type": "fontSizes"
+      }
+    },
+    "Display Font": {
+      "value": "Financier Display",
+      "type": "fontFamilies"
+    },
+    "Base Font": {
+      "value": "Calibre-R",
+      "type": "fontFamilies"
+    },
+    "Regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "Medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "radii": {
+      "100": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "200": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "300": {
+        "value": "12",
+        "type": "borderRadius"
+      }
+    },
+    "border-width": {
+      "100": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "200": {
+        "value": "2",
+        "type": "borderWidth"
+      }
+    }
+  },
+  "semantic": {
+    "caption style": {
+      "value": {
+        "fontFamily": "{global.Base Font}",
+        "fontWeight": "{global.Regular}",
+        "lineHeight": "{global.line-height.300}",
+        "fontSize": "{global.font-size.400}"
+      },
+      "type": "typography"
+    },
+    "Title Style": {
+      "value": {
+        "fontFamily": "{global.Base Font}",
+        "fontWeight": "{global.Medium}",
+        "lineHeight": "{global.line-height.200}",
+        "fontSize": ""
+      },
+      "type": "typography"
+    },
+    "reading-style": {
+      "value": {
+        "fontFamily": "{global.Base Font}",
+        "fontWeight": "{global.Regular}",
+        "lineHeight": "{global.line-height.500}",
+        "fontSize": "{global.font-size.500}"
+      },
+      "type": "typography"
+    },
+    "label style": {
+      "value": {
+        "fontFamily": "{global.Base Font}",
+        "fontWeight": "{global.Medium}",
+        "lineHeight": "{global.line-height.100}",
+        "fontSize": "{global.font-size.400}"
+      },
+      "type": "typography"
+    },
+    "body-text": {
+      "color": {
+        "value": "{global.color.neutral.black}",
+        "type": "color",
+        "description": "For all reading texts on white/light surfaces"
+      }
+    },
+    "space": {
+      "inset": {
+        "small": {
+          "value": "{global.space.300} {global.space.400}",
+          "type": "spacing",
+          "description": "Used for buttons, tabs, data cells."
+        },
+        "medium": {
+          "value": "{global.space.400} {global.space.500}",
+          "type": "spacing",
+          "description": "Used for buttons, tabs, data cells."
+        },
+        "large": {
+          "value": "{global.space.500} {global.space.600}",
+          "type": "spacing"
+        }
+      }
+    },
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "{global.color.primary.600}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Buttons": {
+    "button": {
+      "spacing": {
+        "small": {
+          "value": "{semantic.space.inset.small}",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{semantic.space.inset.medium}",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "{semantic.space.inset.large}",
+          "type": "spacing"
+        }
+      },
+      "font-size": {
+        "small": {
+          "value": "{global.font-size.400}",
+          "type": "fontSizes"
+        },
+        "large": {
+          "value": "{global.font-size.600}",
+          "type": "fontSizes"
+        },
+        "medium": {
+          "value": "{global.font-size.500}",
+          "type": "fontSizes"
+        }
+      },
+      "backround": {
+        "primary": {
+          "default": {
+            "value": "{global.color.primary.600}",
+            "type": "color"
+          }
+        }
+      },
+      "background": {
+        "primary": {
+          "hover": {
+            "value": "{global.color.primary.500}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{global.color.grey.300}",
+            "type": "color"
+          }
+        }
+      },
+      "primary": {
+        "text-color": {
+          "disabled": {
+            "value": "{global.color.grey.500}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{global.color.neutral.white}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "semantic",
+      "Buttons"
+    ]
+  }
+}

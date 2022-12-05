@@ -1,0 +1,14 @@
+.emerald-button {
+    background-color: var(--sd-buttons-button-backround-primary-default);
+    font-size: var(--sd-buttons-button-font-size-large);
+    font-family: var(--sd-global-base-font);
+    padding: var(--sd-buttons-button-spacing-large);
+    color: var(--sd-buttons-button-primary-text-color-default);
+    border-radius: var(--sd-global-radii-200);
+    width: fit-content;
+    cursor: pointer;
+}
+
+.emerald-button:hover {
+    background-color: var(--sd-buttons-button-background-primary-hover);
+}
