@@ -1,0 +1,16 @@
+{
+    "source": ["PoC.json"],
+    "platforms": {
+      "css": {
+        "transformGroup": "css",
+        "prefix": "sd",
+        "buildPath": "build/css/",
+        "files": [{
+          "destination": "_css_classes.css",
+          "format": "css/classFormat"
+        }],
+        "actions": ["copy_assets"]
+      }
+    }
+  }
+  

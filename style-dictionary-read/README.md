@@ -6,7 +6,7 @@
     In this file, we will also call our design tokens in the 'source' parameter, in our case, the 'PoC.json' file.
 4.  Once config.json is set, run 'style-dictionary build' in the root directory to generate the css variables based on our PoC.json 
 5.  We can now see a 'build' folder generated in the root directory. Inside that folder is a css directory containing the _variables.css file (containing our global css variables) 
-6.  Move the newly generated 'build' folder into the scr directory for us to be able to import the _variables.css file in App.js 
+6.  Move the newly generated 'build' folder into the src directory for us to be able to import the _variables.css file in App.js 
 7.  Import the _variables.css file in App.js:
     import './build/css/_variables.css';
     (This will allow us to use the css variables globally)
