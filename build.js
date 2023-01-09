@@ -12,7 +12,7 @@ const StyleDictionary = require('style-dictionary').extend('classes_config.json'
       font-size: ${prop.value.fontSize}px;
       font-weight: ${prop.value.fontWeight};
       line-height: ${prop.value.lineHeight};
-  };`: null})
+  };`: `.${prop.name}: .${prop.value};`})
     .join('\n')}
   `
     },
