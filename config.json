@@ -7,7 +7,7 @@
       "buildPath": "build/css/",
       "files": [{
         "destination": "_variables.css",
-        "format": "css/variables"
+        "format": "css/classFormat"
       }],
       "actions": ["copy_assets"]
     }
