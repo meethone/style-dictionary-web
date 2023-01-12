@@ -4,12 +4,12 @@
     "css": {
       "transformGroup": "css",
       "prefix": "sd",
-      "buildPath": "build/css/",
+      "buildPath": "src/build/css/",
       "files": [{
         "destination": "_variables.css",
         "format": "css/classFormat"
       }],
-      "actions": ["copy_assets"]
+      "actions": []
     }
   }
 }
