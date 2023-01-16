@@ -7,22 +7,27 @@ StyleDictionary.registerFormat({
     :root{
       ${dictionary.allProperties
         .map((prop) => {
-          return prop.type === 'typography' ? false
-          : !isNaN(prop.value) ? `--${prop.name}: ${prop.value}px;`
-          : prop.type === 'spacing' ? `--${prop.name}: ${prop.value.split(' ')[0]}px ${prop.value.split(' ')[1]}px;`
-          : `--${prop.name}: ${prop.value};`
+          const value = prop.value
+          const name = prop.name
+          const type = prop.type
+          return type === 'typography' ? ``
+          : !isNaN(value) ? `--${name}: ${value}px;`
+          : prop.type === 'spacing' ? `--${name}: ${value.split(' ')[0]}px ${value.split(' ')[1]}px;`
+          : `--${name}: ${value};`
         })
         .join('\n')}
     }
     ${dictionary.allProperties
       .map((prop) => {
-        return prop.type === 'typography'  ? `
+        const value = prop.value
+        const type = prop.type
+        return type === 'typography'? `
         .${prop.name} {
-            font-family: ${prop.value.fontFamily};
-            font-size: ${prop.value.fontSize}px;
-            font-weight: ${prop.value.fontWeight};
-            line-height: ${prop.value.lineHeight};
-        };`: false})
+            font-family: ${value.fontFamily};
+            font-size: ${value.fontSize}px;
+            font-weight: ${value.fontWeight};
+            line-height: ${value.lineHeight};
+        };`: ``})
       .join('\n')}
     `
   },
