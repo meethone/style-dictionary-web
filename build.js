@@ -21,12 +21,13 @@ StyleDictionary.registerFormat({
       .map((prop) => {
         const value = prop.value
         const type = prop.type
+        const lineHeight = value.lineHeight
         return type === 'typography'? `
         .${prop.name} {
             font-family: ${value.fontFamily};
             font-size: ${value.fontSize}px;
             font-weight: ${value.fontWeight};
-            line-height: ${value.lineHeight};
+            line-height: ${lineHeight}${isNaN(lineHeight)? '': 'px' };
         };`: ``})
       .join('\n')}
     `
