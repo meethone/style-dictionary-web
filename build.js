@@ -12,7 +12,8 @@ StyleDictionary.registerFormat({
           const type = prop.type
           return type === 'typography' ? ``
           : !isNaN(value) ? `--${name}: ${value}px;`
-          : prop.type === 'spacing' ? `--${name}: ${value.split(' ')[0]}px ${value.split(' ')[1]}px;`
+          : type === 'spacing' ? `--${name}: ${value.split(' ')[0]}px ${value.split(' ')[1]}px;`
+          : type === 'lineHeights' ? `--${name}: ${value}${isNaN(value)? '': 'px' };`
           : `--${name}: ${value};`
         })
         .join('\n')}
